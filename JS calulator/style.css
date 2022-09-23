@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  body{
+    background: radial-gradient(grey,black);
+  }
+
+  .button{
+    font-size:x-large;
+    font-weight: bolder;
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .ac{
+    width:300px;
+  }
+  
+  .row{
+    margin: 8px 0;
+  }
+  .row input{
+    font-weight: bolder;
+    width: 291px;
+    font-size: 20px;
+      margin:0;
+      padding:10px 2px;
+      border: 2px solid black;
+      border-radius: 10px;
+  }
+
+  .button:hover{
+    opacity: 0.5;
+  }
